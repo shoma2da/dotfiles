@@ -14,7 +14,6 @@ Bundle 'taku-o/vim-toggle'
 Bundle 'mattn/zencoding-vim'
 Bundle 'Shougo/neocomplcache'
 Bundle 'Shougo/unite.vim'
-Bundle 'Shougo/vimfiler'
 Bundle 'open-browser.vim'
 Bundle 'ZenCoding.vim'
 Bundle 'opsplorer'
@@ -95,10 +94,6 @@ let g:neocomplcache_enable_underbar_completion=1
 imap <C-k> <Plug>(neocomplcache_snippets_expand)
 smap <C-k> <Plug>(neocomplcache_snippets_expand)
 inoremap <expr><C-l> neocomplcache#complete_common_string()
-
-" vimfiler
-let g:vimfiler_as_default_explorer=1
-let g:vimfiler_safe_mode_by_default=0
 
 " Unite
 "let g:unite_enable_start_insert = 1
