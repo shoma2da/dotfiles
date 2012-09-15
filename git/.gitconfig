@@ -1,0 +1,10 @@
+[user]
+	name = shoma2da
+	email = marcos.shoichi.matsuda@gmail.com
+[core]
+	editor = /usr/bin/vim
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+	interactive = auto
