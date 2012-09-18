@@ -17,6 +17,7 @@ Bundle 'Shougo/unite.vim'
 Bundle 'open-browser.vim'
 Bundle 'ZenCoding.vim'
 Bundle 'opsplorer'
+Bundle 'scala.vim'
 
 filetype plugin indent on
 
@@ -110,4 +111,5 @@ vmap <Leader>open <Plug>(openbrowser-open)
 augroup tagsset
   autocmd!
   autocmd FileType *java set tags=~/.vim/tags/javatags
+  autocmd BufRead,BufNewFile *.scala set filetype=scala
 augroup END
