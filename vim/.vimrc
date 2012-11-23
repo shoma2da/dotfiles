@@ -77,6 +77,7 @@ set smartcase
 set cursorline
 filetype on
 set list listchars=trail:_,tab:^\ 
+set wildmode=list:longest
 
 " ZenkakuSpace
 highlight ZenkakuSpace cterm=underline ctermfg=lightblue guibg=#666666
